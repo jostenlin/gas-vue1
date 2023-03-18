@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to GAS-Vue.js'
+      msg: 'Welcome to GAS-Clasp-Vue.js'
     }
   }
 }
