@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "jostenlin <jostenlin@gmail.com>",
-  "private": true,
+  "private": true,  
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "gas": "npm run build && node gas.js && cd gas && clasp push"
   },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
+    "@types/google-apps-script": "^1.0.59",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
