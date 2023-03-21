@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'vif_vfor',
   data () {
     return {
       msg: 'Welcome to GAS-Clasp-Vue.js',

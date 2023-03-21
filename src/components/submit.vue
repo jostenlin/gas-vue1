@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld1',
+  name: 'submit',
   data () {
     return {
       msg: 'Welcome to GAS-Clasp-Vue.js',
